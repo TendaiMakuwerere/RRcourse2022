@@ -1,0 +1,5 @@
+Linux instance-1 5.15.0-1003-gcp #6-Ubuntu SMP Thu Mar 31 15:55:23 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+total 0
+
+-rw-rw-r-- 1 t_makuwerere t_makuwerere 0 May 18 08:08 test.txt
