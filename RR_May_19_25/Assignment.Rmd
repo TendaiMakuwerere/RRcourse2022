@@ -62,12 +62,15 @@ m.raw
 ```
 
 ```{r}
+m %>% funnel()
+```
+
+```{r}
 m %>% funnel(contour = c(.95,.975,.99),
              col.contour=c("darkblue","black","lightblue"))+
   legend(1.4, 0, c("p < 0.05", "p<0.025", "< 0.01"),bty = "n",
          fill=c("darkblue","blue","lightblue"))
 ```
-
 
 ```{r}
 m %>% forest(sortvar=TE)
